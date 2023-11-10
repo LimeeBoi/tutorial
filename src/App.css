@@ -1,16 +1,21 @@
+button {
+  margin: 5px;
+  width: 160px;
+  height: 70px;
+  font-size: 50px;
+  font-weight: 600;
+  color: white;
+  background-color: rgb(30, 30, 89);
+  border: black 5px solid
+}
+
+p {
+  font-weight: 400;
+}
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  overflow: scroll;
 }
 
 .App-header {
@@ -24,15 +29,16 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.stuffs {
+  width: 750px;
+  padding: 50px;
+  background-color: darkslategray;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.divider {
+  width: 600px;
+  height: 20px;
+  margin-left: 70px;
+  margin-right: 50px;
+  background-color: #282c34;
 }
