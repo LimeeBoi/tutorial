@@ -1,5 +1,5 @@
 import './App.css';
-import Stuffs from './Stuffs';
+import Stuffs from './Page';
 function App() {
   return (
     <div className="App">
